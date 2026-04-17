@@ -1,11 +1,9 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Base */
 html, body {
     height: 100%;
 }
@@ -21,7 +19,6 @@ body {
     min-height: 100vh;
 }
 
-/* Header */
 header {
     background-color: #006064;
     color: white;
@@ -34,14 +31,12 @@ header h1 {
     margin-bottom: 1rem;
 }
 
-/* Contact info in header */
 .contact-info {
     color: #b2ebf2;
     margin-bottom: 1rem;
     font-size: 0.95rem;
 }
 
-/* Navigation */
 nav {
     display: flex;
     justify-content: center;
@@ -60,7 +55,6 @@ nav a:hover {
     color: #ff8a65;
 }
 
-/* Main Content */
 main {
     max-width: 800px;
     width: 100%;
@@ -83,7 +77,6 @@ main p {
     color: #2c3e50;
 }
 
-/* CTA Buttons */
 .cta-buttons {
     margin-top: 40px;
     display: flex;
@@ -130,7 +123,6 @@ main p {
     box-shadow: 0 10px 20px rgba(255, 112, 67, 0.3);
 }
 
-/* Profile Section */
 .profile-section {
     display: flex;
     flex-direction: column;
@@ -147,7 +139,6 @@ main p {
     border: 4px solid #00838f;
 }
 
-/* Skills List */
 main ul {
     list-style: none;
     display: inline-block;
@@ -163,7 +154,6 @@ main ul li {
     color: #2c3e50;
 }
 
-/* Projects Grid */
 .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -209,7 +199,6 @@ main ul li {
     transform: scale(1.05);
 }
 
-/* Contact Form */
 form {
     max-width: 500px;
     margin: 1rem auto 0;
@@ -256,7 +245,6 @@ form input[type="submit"]:hover {
     background-color: #006064;
 }
 
-/* Footer */
 footer {
     background-color: #006064;
     color: #b2ebf2;
@@ -266,7 +254,6 @@ footer {
     width: 100%;
 }
 
-/* Mobile Responsive */
 @media (max-width: 600px) {
     header h1 {
         font-size: 1.5rem;
