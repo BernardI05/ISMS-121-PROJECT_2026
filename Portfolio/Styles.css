@@ -119,6 +119,14 @@ main ul li {
     text-align: center;
 }
 
+.project img {
+    transition: transform 0.3s ease;
+}
+
+.project:hover img {
+    transform: scale(1.05);
+}
+
 /* Contact Form */
 form {
     max-width: 500px;
